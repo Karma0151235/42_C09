@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 
 int	is_sep(char c, char *sep)
 {
@@ -80,6 +79,9 @@ char	**ft_split(char *str, char *charset)
 	return (wordarr);
 }
 
+/*
+#include <stdio.h>
+
 int	main(void)
 {
 	char	*str = "This is a test case";
@@ -100,3 +102,4 @@ int	main(void)
 	printf("%s", wordarr[i]);
 	free(wordarr);
 }
+*/
